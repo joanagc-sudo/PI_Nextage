@@ -17,6 +17,10 @@ app.get('/htmltest', (req, res) => {
   res.render("htmltest")
 })
 
+app.get('/julia', (req, res) => {
+  res.render("julia")
+})
+
 app.listen(3000, () => {
   console.log('Server is running on http://localhost:3000')
 })
